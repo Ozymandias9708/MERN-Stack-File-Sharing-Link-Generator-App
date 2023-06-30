@@ -1,0 +1,15 @@
+.InputBox{
+    padding: 10px;
+    font-size: large;
+}
+
+.InputBox p{
+    margin-top: 10px;
+}
+
+.btn{
+    /* padding: px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(12, 3, 139, 0.832) !important;
+}
