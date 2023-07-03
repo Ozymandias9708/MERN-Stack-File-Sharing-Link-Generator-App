@@ -24,6 +24,7 @@ export default function InputBox() {
 
                 let response=await uploadFile(data);
                 setResult(response.path);
+                // console.log(result);
             }
         }
         getFile();
