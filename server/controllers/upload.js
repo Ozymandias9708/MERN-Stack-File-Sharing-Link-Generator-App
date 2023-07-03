@@ -9,7 +9,7 @@ export const uploadFinally=async(request,response)=>{
 
     try {
         const file=await FILE.create(fileObj);
-        response.status(200).json({ path: `http://localhost:8000/CollectionForFileSharingApp/${file._id}`});
+        response.status(200).json({ path: `https://sharefreely.onrender.com/CollectionForFileSharingApp/${file._id}`}); 
     } catch (error) {
         console.log("Error from response from MongoDB",error.msg);
         response.status(500).json({ error: error.message });
