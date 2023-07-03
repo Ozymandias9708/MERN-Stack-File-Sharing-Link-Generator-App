@@ -7,7 +7,8 @@ const API_URL="https://sharefreely.onrender.com"
 
 export const uploadFile=async (data)=>{
     try {
-        let response= await axios.post(`${API_URL}/upload`, data);
+        console.group("tried");
+        let response= await axios.post(`https://sharefreely.onrender.com/upload`, data);
         return response.data;
 
     } catch (error) {

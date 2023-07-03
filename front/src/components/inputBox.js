@@ -29,7 +29,7 @@ export default function InputBox() {
         }
         getFile();
 
-    },[file])
+    },[file,result])
 
   return (
     <div class="InputBox">
