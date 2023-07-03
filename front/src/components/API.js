@@ -1,14 +1,12 @@
-// import dotenv from 'dotenv'
-// dotenv.config();
+
 import axios from 'axios';
 import React from 'react'
 
-const API_URL="https://sharefreely.onrender.com"
+const API_URL="http://localhost:8000"
 
 export const uploadFile=async (data)=>{
     try {
-        console.group("tried");
-        let response= await axios.post(`https://sharefreely.onrender.com/upload`, data);
+        let response= await axios.post(`${API_URL}/upload`, data);
         return response.data;
 
     } catch (error) {
