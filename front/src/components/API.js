@@ -2,7 +2,7 @@
 import axios from 'axios';
 import React from 'react'
 
-const API_URL="http://localhost:8000"
+const API_URL=`${process.env.REACT_APP_BASE_URL}`
 
 export const uploadFile=async (data)=>{
     try {
