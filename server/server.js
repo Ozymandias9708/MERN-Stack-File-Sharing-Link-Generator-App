@@ -10,7 +10,7 @@ import cors from 'cors';
 import DBConnection from './database/mongoDatabase.js';
 
 
-const PORT =process.env.PORT || 8000;
+const PORT = 8000;
 app.use(cors());
 app.use('/',router);
 
