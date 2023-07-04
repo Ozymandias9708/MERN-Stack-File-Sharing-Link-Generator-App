@@ -32,12 +32,12 @@ export default function InputBox() {
     },[file])
 
   return (
-    <div class="InputBox">
+    <div class="InputBox" style={{overflow:"hidden", padding:5,wordWrap:"break-word" }}>
       <h1>Share Freely</h1>
       <p>Click on Upload to get the Share Link</p>
       <button type="button" class="btn btn-primary" onClick={takeInput}>Upload</button>
       <input type="file" ref={refToInputFile} onChange={(e)=>setFile(e.target.files[0])} style={{display:"none"}}/>
-      <div><a href={result} target='_blank'>{result}</a></div>
+      <div><a href={result} target='_blank' style={{padding:'5px'}}>{result}</a></div>
     </div>
   )
 }
