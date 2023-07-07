@@ -46,7 +46,7 @@
 
 .inputBox{
   background-color: white;
-  height: 40vh;
+  height: auto;
   max-width: 60vw;
   margin: 30vh auto;
   border-radius: 30px;

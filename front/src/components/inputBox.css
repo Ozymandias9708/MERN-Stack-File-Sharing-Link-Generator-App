@@ -5,6 +5,7 @@
 
 .InputBox p{
     margin-top: 10px;
+    /* overflow: hidden; */
 }
 
 .btn{
@@ -12,4 +13,9 @@
     padding-left: 20px;
     padding-right: 20px;
     background-color: rgba(12, 3, 139, 0.832) !important;
+}
+
+.link{
+    margin-top: 2vh;
+    /* overflow: hidden; */
 }
